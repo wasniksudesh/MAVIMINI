@@ -3,7 +3,7 @@ A project based on Computer Vision using Raspberry pi
 Instructions -
 for using webcam or picamera with raspberry pi -
 1)attach webcam/picamera and movidius stick.
-2)assuming the graph folder is in the same directory - run the pyhton command -
+2)assuming the graph folder is in the same directory - run the python command -
   python3 final-python-code-using-Picamera.py --graph graphs/mobilenetgraph
   
 If you want to run a video and detect frame by frame - please input path in the python file.
