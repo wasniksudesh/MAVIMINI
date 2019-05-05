@@ -126,7 +126,9 @@ graph = device.AllocateGraph(graph_in_memory)
 # open a pointer to the video stream thread and allow the buffer to
 # start to fill, then start the FPS counter
 print("[INFO] starting the video stream and FPS counter...")
+#"Please put the destination of the video here in place of 'df.mp4'"
 vs = cv2.VideoCapture('df.mp4')
+
 time.sleep(1)
 fps = FPS().start()
 
